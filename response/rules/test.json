@@ -1,7 +1,7 @@
 {
   "rule_name": "test",
   "rule_author": "siembol",
-  "rule_version": 3,
+  "rule_version": 4,
   "evaluators": [
     {
       "evaluator_type": "alert_throttling",
@@ -27,7 +27,7 @@
         "field_filter": {
           "including_fields": [
             ".*",
-            "test2",
+            "test",
             "tes3"
           ]
         }
