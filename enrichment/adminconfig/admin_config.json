@@ -1,5 +1,5 @@
 {
-  "config_version": 3,
+  "config_version": 4,
   "topology.name": "siembol-enrichment",
   "kafka.spout.num.executors": 1,
   "enriching.engine.bolt.num.executors": 1,
