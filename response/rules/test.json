@@ -1,14 +1,28 @@
 {
   "rule_name": "test",
   "rule_author": "siembol",
-  "rule_version": 5,
+  "rule_version": 6,
   "evaluators": [
     {
-      "evaluator_type": "alert_throttling",
+      "evaluator_type": "markdown_table_formatter",
       "evaluator_attributes": {
-        "suppressing_key": "test",
-        "time_unit_type": "minutes",
-        "suppression_time": 1
+        "field_name": "test",
+        "table_name": "test",
+        "fields_column_name": "Field Name",
+        "values_column_name": "Field Value",
+        "field_filter": {
+          "including_fields": [
+            ".*"
+          ]
+        }
+      }
+    },
+    {
+      "evaluator_type": "json_path_assignment",
+      "evaluator_attributes": {
+        "assignment_type": "match_always",
+        "field_name": "test",
+        "json_path": "test"
       }
     },
     {
