@@ -1,0 +1,45 @@
+{
+  "rule_name": "test__",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "rule_description": "testing",
+  "evaluators": [
+    {
+      "evaluator_type": "json_path_assignment",
+      "evaluator_attributes": {
+        "assignment_type": "no_match_when_empty",
+        "field_name": "fd",
+        "json_path": "fd"
+      }
+    },
+    {
+      "evaluator_type": "sleep",
+      "evaluator_attributes": {
+        "time_unit_type": "seconds",
+        "sleeping_time": 10
+      }
+    },
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "fd",
+        "time_unit_type": "minutes",
+        "suppression_time": 1
+      }
+    },
+    {
+      "evaluator_type": "array_reducer",
+      "evaluator_attributes": {
+        "array_reducer_type": "first_field",
+        "array_field": "fd",
+        "prefix_name": "fd",
+        "field_name_delimiter": "_",
+        "field_filter": {
+          "including_fields": [
+            ".*"
+          ]
+        }
+      }
+    }
+  ]
+}
