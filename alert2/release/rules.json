@@ -1,0 +1,134 @@
+{
+  "tags": [
+    {
+      "tag_name": "detection_source",
+      "tag_value": "siembol_alerts"
+    }
+  ],
+  "rules_protection": {
+    "max_per_hour": 30,
+    "max_per_day": 100
+  },
+  "rules_version": 1,
+  "rules": [
+    {
+      "rule_name": "test7",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "testing1",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "testttsss",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "test10",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "test6",
+      "rule_author": "siembol",
+      "rule_version": 3,
+      "rule_description": "dsa",
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "ds",
+          "data": "ds"
+        }
+      ]
+    },
+    {
+      "rule_name": "testtt",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "test13",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "test7_",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    }
+  ]
+}
