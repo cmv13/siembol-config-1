@@ -9,7 +9,7 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 3,
+  "rules_version": 4,
   "rules": [
     {
       "rule_name": "test7",
@@ -2850,6 +2850,1099 @@
     },
     {
       "rule_name": "testings_169",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_293",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_238",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "test5_copy",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "testings_172",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_50",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_82",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_64",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_194",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "test6____copy",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "testings_107",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_187",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_242",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_287",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_3",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "new_entry_24_copy_2",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "d",
+      "matchers": [
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "d",
+          "case_insensitive": false,
+          "data": "d"
+        }
+      ]
+    },
+    {
+      "rule_name": "testings_168",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_223",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_268",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_17",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_94",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_126",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_295",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_16",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_209",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_173",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_224",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_115",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_154",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_143",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_21",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_271",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_46",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        },
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hoi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "testing",
+          "tag_value": "test"
+        },
+        {
+          "tag_name": "mitre",
+          "tag_value": "T100"
+        }
+      ],
+      "rule_protection": {
+        "max_per_hour": 30,
+        "max_per_day": 100
+      }
+    },
+    {
+      "rule_name": "testings_285",
       "rule_author": "siembol",
       "rule_version": 1,
       "source_type": "*",
