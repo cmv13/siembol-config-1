@@ -1,0 +1,24 @@
+{
+  "rule_name": "alert_test2",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "source_type": "*",
+  "matchers": [
+    {
+      "matcher_type": "REGEX_MATCH",
+      "is_negated": false,
+      "field": "test",
+      "data": ".*"
+    }
+  ],
+  "tags": [
+    {
+      "tag_name": "test",
+      "tag_value": "value"
+    },
+    {
+      "tag_name": "key",
+      "tag_value": "value2"
+    }
+  ]
+}
