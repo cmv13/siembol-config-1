@@ -1,7 +1,7 @@
 {
   "rule_name": "gggggggggggggggggggggggg",
   "rule_author": "siembol",
-  "rule_version": 2,
+  "rule_version": 3,
   "source_type": "*",
   "matchers": [
     {
@@ -9,6 +9,18 @@
       "is_negated": false,
       "field": "test",
       "data": ".*"
+    },
+    {
+      "matcher_type": "COMPOSITE_AND",
+      "is_negated": false,
+      "matchers": [
+        {
+          "matcher_type": "IS_IN_SET",
+          "field": "hi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ]
     }
   ]
 }
