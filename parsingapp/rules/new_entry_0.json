@@ -1,7 +1,8 @@
 {
   "parsing_app_name": "new_entry_0",
-  "parsing_app_version": 1,
+  "parsing_app_version": 2,
   "parsing_app_author": "siembol",
+  "parsing_app_description": "dsdsdsdsd",
   "parsing_app_settings": {
     "parsing_app_type": "single_parser",
     "input_topics": [
