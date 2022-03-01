@@ -1,8 +1,8 @@
 {
   "rule_name": "rrrrrrrrrrrr",
   "rule_author": "siembol",
-  "rule_version": 2,
-  "rule_description": "test",
+  "rule_version": 3,
+  "rule_description": "test2",
   "source_type": "*",
   "matchers": [
     {
