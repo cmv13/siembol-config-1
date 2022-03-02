@@ -9,18 +9,19 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 5,
+  "rules_version": 6,
   "rules": [
     {
       "rule_name": "test7",
       "rule_author": "siembol",
-      "rule_version": 1,
+      "rule_version": 3,
+      "rule_description": "test",
       "source_type": "*",
       "matchers": [
         {
           "matcher_type": "REGEX_MATCH",
           "is_negated": false,
-          "field": "test",
+          "field": "testi",
           "data": ".*"
         }
       ]
