@@ -1,7 +1,7 @@
 {
   "rule_name": "test7",
   "rule_author": "siembol",
-  "rule_version": 5,
+  "rule_version": 6,
   "rule_description": "test",
   "source_type": "*",
   "matchers": [
@@ -24,6 +24,10 @@
     {
       "tag_name": "key2",
       "tag_value": "value2"
+    },
+    {
+      "tag_name": "hello",
+      "tag_value": "hi"
     }
   ]
 }
