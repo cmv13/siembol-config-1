@@ -9,7 +9,7 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 1,
+  "rules_version": 2,
   "rules": [
     {
       "rule_name": "gfds",
@@ -77,6 +77,20 @@
         {
           "tag_name": "tag3",
           "tag_value": "value3"
+        }
+      ]
+    },
+    {
+      "rule_name": "hgjhghghg",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "*",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
         }
       ]
     }
