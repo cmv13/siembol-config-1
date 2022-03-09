@@ -1,7 +1,7 @@
 {
   "rule_name": "test7",
   "rule_author": "siembol",
-  "rule_version": 7,
+  "rule_version": 8,
   "rule_description": "test",
   "source_type": "*",
   "matchers": [
