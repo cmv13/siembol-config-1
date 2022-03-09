@@ -1,0 +1,41 @@
+{
+  "rule_name": "this_is_a_very_long_rule_name_long_long_long_long_long_long_long_long",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "source_type": "*",
+  "matchers": [
+    {
+      "matcher_type": "REGEX_MATCH",
+      "is_negated": false,
+      "field": "test",
+      "data": ".*"
+    },
+    {
+      "matcher_type": "COMPOSITE_AND",
+      "is_negated": false,
+      "matchers": [
+        {
+          "matcher_type": "IS_IN_SET",
+          "is_negated": false,
+          "field": "hi",
+          "case_insensitive": false,
+          "data": "hi"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "tag_name": "tag1",
+      "tag_value": "value1"
+    },
+    {
+      "tag_name": "tag2",
+      "tag_value": "value2"
+    },
+    {
+      "tag_name": "tag3",
+      "tag_value": "value3"
+    }
+  ]
+}
