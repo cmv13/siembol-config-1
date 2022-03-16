@@ -1,7 +1,7 @@
 {
   "rule_name": "testttsss",
   "rule_author": "siembol",
-  "rule_version": 2,
+  "rule_version": 3,
   "source_type": "*",
   "matchers": [
     {
@@ -14,6 +14,10 @@
   "tags": [
     {
       "tag_name": "severity",
+      "tag_value": "high"
+    },
+    {
+      "tag_name": "integrity",
       "tag_value": "high"
     }
   ]
