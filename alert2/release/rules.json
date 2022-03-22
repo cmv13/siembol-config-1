@@ -9,7 +9,7 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 6,
+  "rules_version": 7,
   "rules": [
     {
       "rule_name": "test7",
@@ -22,6 +22,26 @@
           "is_negated": false,
           "field": "test",
           "data": ".*"
+        }
+      ]
+    },
+    {
+      "rule_name": "testing_long_long_long_long_long_long_long_long_long_long_config_name",
+      "rule_author": "siembol",
+      "rule_version": 1,
+      "source_type": "eventlogs",
+      "matchers": [
+        {
+          "matcher_type": "REGEX_MATCH",
+          "is_negated": false,
+          "field": "test",
+          "data": ".*"
+        }
+      ],
+      "tags": [
+        {
+          "tag_name": "integrity",
+          "tag_value": "high"
         }
       ]
     },
