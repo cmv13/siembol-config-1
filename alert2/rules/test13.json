@@ -1,14 +1,20 @@
 {
   "rule_name": "test13",
   "rule_author": "siembol",
-  "rule_version": 1,
-  "source_type": "*",
+  "rule_version": 2,
+  "source_type": "kubernetes",
   "matchers": [
     {
       "matcher_type": "REGEX_MATCH",
       "is_negated": false,
       "field": "test",
       "data": ".*"
+    }
+  ],
+  "tags": [
+    {
+      "tag_name": "integrity",
+      "tag_value": "medium"
     }
   ]
 }
