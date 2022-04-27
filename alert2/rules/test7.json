@@ -1,7 +1,7 @@
 {
   "rule_name": "test7",
   "rule_author": "siembol",
-  "rule_version": 14,
+  "rule_version": 15,
   "rule_description": "test24",
   "source_type": "*",
   "matchers": [
@@ -44,6 +44,6 @@
   ],
   "rule_protection": {
     "max_per_hour": 100,
-    "max_per_day": 300
+    "max_per_day": 80
   }
 }
