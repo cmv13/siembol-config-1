@@ -1,5 +1,4 @@
 {
-  "test_case_name": "test_1",
   "test_specification": {
     "event": {}
   },
@@ -13,6 +12,7 @@
     }
   ],
   "author": "siembol",
-  "version": 1,
+  "version": 2,
+  "test_case_name": "test_1",
   "config_name": "test7"
 }
