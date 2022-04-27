@@ -1,7 +1,7 @@
 {
   "rule_name": "test7",
   "rule_author": "siembol",
-  "rule_version": 13,
+  "rule_version": 14,
   "rule_description": "test24",
   "source_type": "*",
   "matchers": [
@@ -9,7 +9,7 @@
       "matcher_type": "REGEX_MATCH",
       "is_negated": false,
       "field": "testi",
-      "data": ".*"
+      "data": "]"
     }
   ],
   "tags": [
