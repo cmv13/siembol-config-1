@@ -9,7 +9,7 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 9,
+  "rules_version": 10,
   "rules": [
     {
       "rule_name": "test7",
@@ -142,8 +142,8 @@
     {
       "rule_name": "testings_189",
       "rule_author": "siembol",
-      "rule_version": 1,
-      "source_type": "*",
+      "rule_version": 2,
+      "source_type": "linuxaudit",
       "matchers": [
         {
           "matcher_type": "REGEX_MATCH",
