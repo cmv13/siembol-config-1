@@ -9,7 +9,7 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 8,
+  "rules_version": 9,
   "rules": [
     {
       "rule_name": "test7",
@@ -127,8 +127,9 @@
     {
       "rule_name": "test10",
       "rule_author": "siembol",
-      "rule_version": 1,
-      "source_type": "*",
+      "rule_version": 4,
+      "rule_description": "hi",
+      "source_type": "powershell",
       "matchers": [
         {
           "matcher_type": "REGEX_MATCH",
