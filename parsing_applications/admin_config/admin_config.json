@@ -1,5 +1,5 @@
 {
-  "config_version": 4,
+  "config_version": 5,
   "topology.name.prefix": "parsing",
   "client.id.prefix": "siembol.parsing.writer",
   "group.id.prefix": "siembol.parsing.reader",
@@ -10,10 +10,8 @@
     "zk.max.retries": 3
   },
   "kafka.batch.writer.attributes": {
-    "batch.size": 1,
     "producer.properties": {
-      "bootstrap.servers": "kafka-0.kafka-headless.siembol.svc.cluster.local:9092",
-      "security.protocol": "PLAINTEXT"
+      "bootstrap.servers": "kafka-0.kafka-headless.siembol.svc.cluster.local:9092"
     }
   },
   "storm.attributes": {
@@ -27,5 +25,25 @@
       "topology.message.timeout.secs": 50,
       "max.spout.pending": 500
     }
-  }
+  },
+  "overridden.applications": [
+    {
+      "application.name": "test",
+      "kafka.batch.writer.attributes": {
+        "producer.properties": {
+          "HI": "HI"
+        }
+      },
+      "storm.attributes": {
+        "bootstrap.servers": "test",
+        "first.pool.offset.strategy": "UNCOMMITTED_LATEST",
+        "kafka.spout.properties": {
+          "hi": "HI"
+        },
+        "storm.config": {
+          "HI": "HI"
+        }
+      }
+    }
+  ]
 }
