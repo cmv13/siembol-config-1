@@ -1,0 +1,36 @@
+{
+  "parsing_app_name": "router",
+  "parsing_app_version": 1,
+  "parsing_app_author": "siembol",
+  "parsing_app_settings": {
+    "parsing_app_type": "router_parsing",
+    "input_topics": [
+      "test"
+    ],
+    "error_topic": "test",
+    "input_parallelism": 1,
+    "parsing_parallelism": 1,
+    "output_parallelism": 1,
+    "parse_metadata": false
+  },
+  "parsing_settings": {
+    "routing_parser": {
+      "router_parser_name": "test",
+      "routing_field": "test",
+      "routing_message": "test",
+      "default_parser": {
+        "output_topic": "test",
+        "parser_name": "test"
+      },
+      "parsers": [
+        {
+          "routing_field_pattern": "test",
+          "parser_properties": {
+            "parser_name": "tet",
+            "output_topic": "test"
+          }
+        }
+      ]
+    }
+  }
+}
