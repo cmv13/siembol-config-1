@@ -1,12 +1,12 @@
 {
   "rule_name": "ip_hostname",
   "rule_author": "siembol",
-  "rule_version": 3,
+  "rule_version": 4,
   "source_type": "win_eventlogs",
   "matchers": [
     {
       "is_enabled": true,
-      "description": "test",
+      "description": "Description of matcher",
       "matcher_type": "REGEX_MATCH",
       "is_negated": false,
       "field": "IpAddress",
