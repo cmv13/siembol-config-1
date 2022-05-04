@@ -1,6 +1,6 @@
 {
   "parser_name": "aws_cloudtrail",
-  "parser_version": 4,
+  "parser_version": 5,
   "parser_author": "siembol",
   "parser_description": "AWS cloudtrail parser.",
   "parser_attributes": {
@@ -30,6 +30,20 @@
           }
         ],
         "timestamp_field": "eventTime"
+      }
+    },
+    {
+      "is_enabled": true,
+      "name": "test",
+      "field": "test",
+      "extractor_type": "json_extractor",
+      "attributes": {
+        "should_overwrite_fields": false,
+        "should_remove_field": false,
+        "remove_quotes": true,
+        "skip_empty_values": false,
+        "thrown_exception_on_error": false,
+        "nested_separator": ":"
       }
     }
   ],
