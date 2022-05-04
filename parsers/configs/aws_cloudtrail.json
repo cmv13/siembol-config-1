@@ -1,6 +1,6 @@
 {
   "parser_name": "aws_cloudtrail",
-  "parser_version": 5,
+  "parser_version": 6,
   "parser_author": "siembol",
   "parser_description": "AWS cloudtrail parser.",
   "parser_attributes": {
@@ -34,7 +34,7 @@
     },
     {
       "is_enabled": true,
-      "name": "test",
+      "name": "json",
       "field": "test",
       "extractor_type": "json_extractor",
       "attributes": {
