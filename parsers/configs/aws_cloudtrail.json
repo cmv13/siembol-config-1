@@ -1,6 +1,6 @@
 {
   "parser_name": "aws_cloudtrail",
-  "parser_version": 9,
+  "parser_version": 10,
   "parser_author": "siembol",
   "parser_description": "AWS cloudtrail parser.",
   "parser_attributes": {
@@ -34,7 +34,7 @@
     },
     {
       "is_enabled": true,
-      "description": "This is a ver ybig hack for something a hack hack hack hack bug hack because extractors can be very long \nand thi fdskf;ldskfl\nfdsfds s is how it goes an incredibly long description  foir something useless just to see how it looks if the description is very long and longer longer longer longer longer longer longer longr longer longer longer longer longer lnger longer longerr longer longer longer longer longer  fdsfds",
+      "description": "This is a longer longer longer longer longer longer longr longer longer longer longer longer lnger longer longerr longer longer because extractors can be very long.\nlonger longer longer longer longer longer longr longer longer longer longer longer lnger longer longerr longer longer longer longer longer longer longer longer longr longer longer longer longer longer lnger longer longerr longer longer. longer longer longer longer longer longer longr longer longer longer longer longer lnger longer longerr longer longer",
       "name": "json",
       "field": "test",
       "extractor_type": "json_extractor",
