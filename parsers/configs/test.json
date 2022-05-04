@@ -1,6 +1,6 @@
 {
   "parser_name": "test",
-  "parser_version": 1,
+  "parser_version": 2,
   "parser_author": "siembol",
   "parser_description": "Parser for win eventlogs sent in syslog format.",
   "parser_attributes": {
@@ -13,6 +13,7 @@
   },
   "parser_extractors": [
     {
+      "is_enabled": true,
       "name": "kv_extractor",
       "field": "original_string",
       "extractor_type": "key_value_extractor",
