@@ -1,14 +1,22 @@
 {
   "rule_name": "gfds",
   "rule_author": "siembol",
-  "rule_version": 1,
+  "rule_version": 2,
   "source_type": "*",
   "matchers": [
     {
+      "is_enabled": true,
       "matcher_type": "REGEX_MATCH",
       "is_negated": false,
       "field": "test",
       "data": ".*"
+    },
+    {
+      "is_enabled": false,
+      "description": "hi",
+      "matcher_type": "IS_IN_SET",
+      "is_negated": false,
+      "case_insensitive": false
     }
   ]
 }
