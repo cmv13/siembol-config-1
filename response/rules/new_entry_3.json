@@ -1,0 +1,29 @@
+{
+  "rule_name": "new_entry_3",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "rule_description": "dsa",
+  "evaluators": [
+    {
+      "evaluator_type": "sleep",
+      "evaluator_attributes": {
+        "time_unit_type": "seconds",
+        "sleeping_time": 6
+      }
+    },
+    {
+      "evaluator_type": "fixed_result",
+      "evaluator_attributes": {
+        "evaluation_result": "match"
+      }
+    },
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "g",
+        "time_unit_type": "minutes",
+        "suppression_time": 6
+      }
+    }
+  ]
+}
