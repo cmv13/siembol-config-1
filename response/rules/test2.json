@@ -1,0 +1,65 @@
+{
+  "rule_name": "test2",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "evaluators": [
+    {
+      "evaluator_type": "json_path_assignment",
+      "evaluator_attributes": {
+        "assignment_type": "match_always",
+        "field_name": "test",
+        "json_path": "test"
+      }
+    },
+    {
+      "evaluator_type": "fixed_result",
+      "evaluator_attributes": {
+        "evaluation_result": "match"
+      }
+    },
+    {
+      "evaluator_type": "markdown_table_formatter",
+      "evaluator_attributes": {
+        "field_name": "test",
+        "table_name": "test",
+        "fields_column_name": "Field Name",
+        "values_column_name": "Field Value",
+        "field_filter": {
+          "including_fields": [
+            ".*"
+          ]
+        }
+      }
+    },
+    {
+      "evaluator_type": "array_reducer",
+      "evaluator_attributes": {
+        "array_reducer_type": "first_field",
+        "array_field": "tes",
+        "prefix_name": "tes",
+        "field_name_delimiter": "_",
+        "field_filter": {
+          "including_fields": [
+            ".*"
+          ]
+        }
+      }
+    },
+    {
+      "evaluator_type": "array_reducer",
+      "evaluator_attributes": {
+        "array_reducer_type": "first_field",
+        "array_field": "tse",
+        "prefix_name": "test",
+        "field_name_delimiter": "_",
+        "field_filter": {
+          "including_fields": [
+            ".*",
+            "test",
+            "tes3"
+          ]
+        }
+      }
+    }
+  ]
+}
