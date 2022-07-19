@@ -1,7 +1,7 @@
 {
   "rule_name": "test2",
   "rule_author": "siembol",
-  "rule_version": 1,
+  "rule_version": 2,
   "evaluators": [
     {
       "evaluator_type": "json_path_assignment",
@@ -46,19 +46,18 @@
       }
     },
     {
-      "evaluator_type": "array_reducer",
+      "evaluator_type": "matching",
       "evaluator_attributes": {
-        "array_reducer_type": "first_field",
-        "array_field": "tse",
-        "prefix_name": "test",
-        "field_name_delimiter": "_",
-        "field_filter": {
-          "including_fields": [
-            ".*",
-            "test",
-            "tes3"
-          ]
-        }
+        "evaluation_result": "match",
+        "matchers": [
+          {
+            "matcher_type": "IS_IN_SET",
+            "is_negated": false,
+            "field": "h",
+            "data": "h",
+            "case_insensitive": false
+          }
+        ]
       }
     }
   ]
