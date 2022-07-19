@@ -1,0 +1,40 @@
+{
+  "rule_name": "new_entry_5",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "evaluators": [
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "jh",
+        "time_unit_type": "minutes",
+        "suppression_time": 45
+      }
+    },
+    {
+      "evaluator_type": "sleep",
+      "evaluator_attributes": {
+        "time_unit_type": "seconds",
+        "sleeping_time": 76
+      }
+    },
+    {
+      "evaluator_type": "array_reducer",
+      "evaluator_attributes": {
+        "array_reducer_type": "first_field",
+        "array_field": "fgfd",
+        "prefix_name": "gfdgd",
+        "field_name_delimiter": "_",
+        "field_filter": {
+          "including_fields": [
+            ".*",
+            "gfd"
+          ],
+          "excluding_fields": [
+            "gfdgfd"
+          ]
+        }
+      }
+    }
+  ]
+}
