@@ -1,7 +1,7 @@
 {
   "rule_name": "new_entry_5",
   "rule_author": "siembol",
-  "rule_version": 2,
+  "rule_version": 3,
   "evaluators": [
     {
       "evaluator_type": "alert_throttling",
@@ -12,10 +12,20 @@
       }
     },
     {
-      "evaluator_type": "sleep",
+      "evaluator_type": "markdown_table_formatter",
       "evaluator_attributes": {
-        "time_unit_type": "seconds",
-        "sleeping_time": 76
+        "field_name": "gf",
+        "table_name": "gf",
+        "fields_column_name": "Field Name",
+        "values_column_name": "Field Value",
+        "field_filter": {
+          "including_fields": [
+            ".*"
+          ],
+          "excluding_fields": [
+            "jhi"
+          ]
+        }
       }
     },
     {
