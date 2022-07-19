@@ -1,7 +1,7 @@
 {
   "rule_name": "test__copy",
   "rule_author": "siembol",
-  "rule_version": 5,
+  "rule_version": 6,
   "rule_description": "testing",
   "evaluators": [
     {
@@ -10,6 +10,7 @@
         "evaluation_result": "match",
         "matchers": [
           {
+            "is_enabled": true,
             "matcher_type": "REGEX_MATCH",
             "is_negated": false,
             "field": "gfd",
