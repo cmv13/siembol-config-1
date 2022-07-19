@@ -1,7 +1,7 @@
 {
   "rule_name": "new_entry_5",
   "rule_author": "siembol",
-  "rule_version": 3,
+  "rule_version": 4,
   "evaluators": [
     {
       "evaluator_type": "alert_throttling",
@@ -17,15 +17,7 @@
         "field_name": "gf",
         "table_name": "gf",
         "fields_column_name": "Field Name",
-        "values_column_name": "Field Value",
-        "field_filter": {
-          "including_fields": [
-            ".*"
-          ],
-          "excluding_fields": [
-            "jhi"
-          ]
-        }
+        "values_column_name": "Field Value"
       }
     },
     {
