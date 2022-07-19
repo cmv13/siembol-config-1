@@ -1,7 +1,7 @@
 {
   "rule_name": "test__copy",
   "rule_author": "siembol",
-  "rule_version": 2,
+  "rule_version": 3,
   "rule_description": "testing",
   "evaluators": [
     {
@@ -36,6 +36,14 @@
         "days_of_week_pattern": ".*",
         "hours_of_day_pattern": ".*",
         "result_if_not_excluded": "no_match"
+      }
+    },
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "hi",
+        "time_unit_type": "minutes",
+        "suppression_time": 9
       }
     },
     {
