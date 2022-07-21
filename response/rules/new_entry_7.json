@@ -1,0 +1,31 @@
+{
+  "rule_name": "new_entry_7",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "evaluators": [
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "g",
+        "time_unit_type": "minutes",
+        "suppression_time": 6
+      }
+    },
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "hgf",
+        "time_unit_type": "minutes",
+        "suppression_time": 6
+      }
+    },
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "g",
+        "time_unit_type": "minutes",
+        "suppression_time": 6
+      }
+    }
+  ]
+}
