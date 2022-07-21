@@ -1,0 +1,70 @@
+{
+  "rule_name": "test__r",
+  "rule_author": "siembol",
+  "rule_version": 1,
+  "rule_description": "testing",
+  "evaluators": [
+    {
+      "evaluator_type": "array_reducer",
+      "evaluator_attributes": {
+        "array_reducer_type": "first_field",
+        "array_field": "jh",
+        "prefix_name": "jh",
+        "field_name_delimiter": "_",
+        "field_filter": {
+          "including_fields": [
+            ".*",
+            "jhj"
+          ],
+          "excluding_fields": [
+            "jhjh"
+          ]
+        }
+      }
+    },
+    {
+      "evaluator_type": "sleep",
+      "evaluator_attributes": {
+        "time_unit_type": "seconds",
+        "sleeping_time": 10
+      }
+    },
+    {
+      "evaluator_type": "matching",
+      "evaluator_attributes": {
+        "evaluation_result": "match",
+        "matchers": [
+          {
+            "is_enabled": true,
+            "matcher_type": "REGEX_MATCH",
+            "is_negated": false,
+            "field": "fd",
+            "data": "fds"
+          }
+        ]
+      }
+    },
+    {
+      "evaluator_type": "alert_throttling",
+      "evaluator_attributes": {
+        "suppressing_key": "fd",
+        "time_unit_type": "minutes",
+        "suppression_time": 1
+      }
+    },
+    {
+      "evaluator_type": "array_reducer",
+      "evaluator_attributes": {
+        "array_reducer_type": "first_field",
+        "array_field": "fd",
+        "prefix_name": "f",
+        "field_name_delimiter": "_",
+        "field_filter": {
+          "including_fields": [
+            ".*"
+          ]
+        }
+      }
+    }
+  ]
+}
