@@ -9,57 +9,8 @@
     "max_per_hour": 30,
     "max_per_day": 100
   },
-  "rules_version": 10,
+  "rules_version": 11,
   "rules": [
-    {
-      "rule_name": "test7",
-      "rule_author": "siembol",
-      "rule_version": 13,
-      "rule_description": "test24",
-      "source_type": "*",
-      "matchers": [
-        {
-          "matcher_type": "REGEX_MATCH",
-          "is_negated": false,
-          "field": "testi",
-          "data": ".*"
-        }
-      ],
-      "tags": [
-        {
-          "tag_name": "test",
-          "tag_value": "test"
-        },
-        {
-          "tag_name": "key",
-          "tag_value": "value"
-        },
-        {
-          "tag_name": "key2",
-          "tag_value": "value2"
-        },
-        {
-          "tag_name": "hello",
-          "tag_value": "hi"
-        },
-        {
-          "tag_name": "longlonglonglonglonglonglongtag",
-          "tag_value": "longlonglonglong value"
-        },
-        {
-          "tag_name": "integrity",
-          "tag_value": "high"
-        },
-        {
-          "tag_name": "confidentiality",
-          "tag_value": "high"
-        }
-      ],
-      "rule_protection": {
-        "max_per_hour": 100,
-        "max_per_day": 300
-      }
-    },
     {
       "rule_name": "testing_long_long_long_long_long_long_long_long_long_long_config_name",
       "rule_author": "siembol",
@@ -7766,20 +7717,6 @@
         "max_per_hour": 30,
         "max_per_day": 100
       }
-    },
-    {
-      "rule_name": "test7",
-      "rule_author": "siembol",
-      "rule_version": 1,
-      "source_type": "*",
-      "matchers": [
-        {
-          "matcher_type": "REGEX_MATCH",
-          "is_negated": false,
-          "field": "test",
-          "data": ".*"
-        }
-      ]
     },
     {
       "rule_name": "testings_149",
